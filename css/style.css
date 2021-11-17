@@ -525,7 +525,7 @@ input[type='checkbox']:checked +span::before {
 
 /* news.html ---------------------------------------*/
 .page-news .container {
-    width: 50%;
+    width: 70%;
 }
 .page-news-list li {
     margin-bottom: 2rem;
@@ -874,11 +874,6 @@ input[type='checkbox']:checked +span::before {
     .form-wrapper, .job-wrapper, .page-news-wrapper {
         margin: 30px 0;
     }
-
-    /* news.html------------------------------ */
-    .page-news .container {
-        width: 70%;
-    }    
 
     /* contact.html---------------------------- */
     th {
