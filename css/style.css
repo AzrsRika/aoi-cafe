@@ -452,7 +452,7 @@ textarea {
     text-align: start;
 }
 .table tr {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .checkbox-list {
     text-align: start;
@@ -542,10 +542,16 @@ input[type='checkbox']:checked +span::before {
     justify-content: center;
     text-align: center;
 }
-.pagination li,.pagination a,.current {
-    width: 30px;
+.pagination li {
     margin: 0 6px;
+}
+.pagination li,.pagination a,.current {
+    width: 36px;
+    height: 36px;
     display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .pagination a:hover {
     background: #ccc;
@@ -628,7 +634,7 @@ input[type='checkbox']:checked +span::before {
     }
     /* ハンバーガーメニューアイコン大きさ変更 */
     .menu-icon {
-        font-size: 2rem;
+        font-size: 3rem;
         color: #7b5544;
     }
     .sp-btn-menu {
@@ -643,6 +649,9 @@ input[type='checkbox']:checked +span::before {
     }
     /* ニュース */
     #news > .container {
+        width: 80%;
+    }
+    .page-news .container {
         width: 80%;
     }
     /* フッター */
@@ -679,16 +688,16 @@ input[type='checkbox']:checked +span::before {
         background-position: right 180px, 0 0;
         background-size: 80vw auto, contain;
     }
+    .table-wrapper {
+        width: 100%;
+    }
 }
 
 /* スマホ */
 @media(max-width: 600px) {
     /* フォントサイズ */
     body {
-        font-size: 1rem;
-    }
-    .ttl {
-        font-size: 2.8rem;
+        font-size: 1.6rem;
     }
     .catchcopy {
         margin-top: 30px;
@@ -696,10 +705,16 @@ input[type='checkbox']:checked +span::before {
         text-align: start;
     }
     .header-description,.job-description { /* ←index.html,recruit.html共通 */
-        font-size: 1.2rem;
+        font-size: 2rem;
         text-align: start;
         width: 80%;
         margin:  0 auto;
+    }
+    .ttl {
+        font-size: 4rem;
+    }
+    .about-sub-ttl {
+        font-size: 3rem;
     }
 
     /* 余白 */
@@ -727,7 +742,7 @@ input[type='checkbox']:checked +span::before {
 
     /* ヘッダー */
     .header-ttl {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .header-description {
         width: 80%;
@@ -766,7 +781,7 @@ input[type='checkbox']:checked +span::before {
         margin: 32px 0;
     }
     .menu-icon {
-        font-size: 1.8rem;
+        font-size: 2.6rem;
     }
     .sp-btn-menu {
         position: absolute;
@@ -832,7 +847,6 @@ input[type='checkbox']:checked +span::before {
     }
     .news-list {
         text-align: start;
-        margin: 1.5rem 0;
     }
     .category-date__text {
         margin: 0;
@@ -875,7 +889,7 @@ input[type='checkbox']:checked +span::before {
         border-bottom: none;
     }
     .form-wrapper, .job-wrapper, .page-news-wrapper {
-        margin: 30px 0;
+        margin: 60px 0;
     }
 
     /* contact.html---------------------------- */
@@ -941,7 +955,7 @@ input[type='checkbox']:checked +span::before {
         max-width: 80px;
     }
     .postal-code-btn {
-        font-size: .8rem;
+        font-size: 1.2rem;
         margin: 15px 0 0 0;
         padding: 3px 6px;
     }
@@ -954,7 +968,6 @@ input[type='checkbox']:checked +span::before {
     }
 
     .thanks-message {
-        font-size: 1.2rem;
         text-align: start;
         width: 80%;
         margin: 0 auto;
