@@ -645,6 +645,9 @@ input[type='checkbox']:checked +span::before {
     #news > .container {
         width: 80%;
     }
+    .page-news .container {
+        width: 80%;
+    }
     /* フッター */
     .footer {
         padding: 1.5rem 0 1.5rem;
@@ -678,6 +681,9 @@ input[type='checkbox']:checked +span::before {
     .page-form,.page-job,.page-news {
         background-position: right 180px, 0 0;
         background-size: 80vw auto, contain;
+    }
+    .table-wrapper {
+        width: 100%;
     }
 }
 
@@ -956,7 +962,6 @@ input[type='checkbox']:checked +span::before {
     }
 
     .thanks-message {
-        font-size: 1.2rem;
         text-align: start;
         width: 80%;
         margin: 0 auto;
