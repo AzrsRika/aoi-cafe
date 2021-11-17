@@ -383,7 +383,7 @@ iframe {
     max-width: 900px;
     width: 94%;
     margin: 0 auto;
-    padding: 80px 40px;
+    padding: 70px 50px;
     background: #fff;
     box-shadow: 0 0 6px rgb(0 0 0 / 20%);
 }
@@ -403,7 +403,7 @@ iframe {
 .table th,
 .table td {
     display: table-cell;
-    padding: 16px;
+    padding: 20px;
     vertical-align: middle;
     font-weight: normal;
 }
@@ -462,7 +462,7 @@ textarea {
     max-width: 90px;
 }
 .postal-code-btn {
-    font-size: 1rem;
+    font-size: 1.6rem;
     border: 1px solid;
     padding: 7px 10px;
     margin-top: 5px;
@@ -527,7 +527,6 @@ input[type='checkbox']:checked +span::before {
 /* recluit_thanks.html ------------------------ */
 .thanks-message {
     padding: 50px 0;
-    font-size: 1.4rem;
 }
 
 /* news.html ---------------------------------------*/
