@@ -1,9 +1,10 @@
 @charset "utf-8";
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 body {
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-family: 'Noto Sans JP', sans-serif;
     line-height: 1.7;
     color: #572d11;
@@ -27,7 +28,7 @@ li {
     line-height: 1.2;
 }
 .ttl {
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: 'Bree Serif', serif;
     display: block;
     text-align: center;
@@ -65,6 +66,9 @@ li {
 }
 
 /* ヘッダー */
+.header .jp {
+    font-size: 14px;
+}
 .logo {
     padding: 12px 0 12px;
 }
@@ -101,7 +105,7 @@ li {
     display: block;
 }
 .jp {
-    font-size: .9rem;
+    font-size: 1.6rem;
 }
 .header-ttl {
     font-family: 'Yugothic', "游ゴシック Medium",serif;
@@ -111,7 +115,7 @@ li {
     text-shadow: 2px 2px 4px #fff;
 }
 .header-description {
-    font-size: 1.8rem;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
     text-shadow: 1px 1px 2px #fff;
@@ -207,7 +211,7 @@ div[class*="about-text"] {
 }
 .about-sub-ttl {
     font-family: 'Bree Serif', serif;
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: bold;
     color: #492a0066;
 }
@@ -232,14 +236,14 @@ div[class*="about-text"] {
 /* カテゴリーの共通 */
 .category-date {
     width: 200px;
-    padding-right: 1rem;
+    padding-right: 14px;
 }
 .category-date__topics,
 .category-date__job,
 .category-date__limited {
     display: inline-block;
     width: 75px;
-    font-size: 10px;
+    font-size: 1rem;
     padding: 2px 2px 1px;
     margin-right: .5rem;
     color: #fff;
@@ -258,7 +262,7 @@ div[class*="about-text"] {
     background-color: #e67e17;
 }
 .category-date__date {
-    font-size: .8rem;
+    font-size: 1.4rem;
     color: #999;
     vertical-align: middle;
 }
@@ -379,13 +383,12 @@ iframe {
     max-width: 900px;
     width: 94%;
     margin: 0 auto;
-    padding: 60px 40px;
+    padding: 80px 40px;
     background: #fff;
     box-shadow: 0 0 6px rgb(0 0 0 / 20%);
 }
 .table-wrapper h3 {
-    font-family: serif;
-    font-size: 1.8rem;
+    font-size: 3rem;
     padding-bottom: 30px;
 }
 .job-table {
@@ -466,6 +469,10 @@ textarea {
     margin-left: 5px;
     transition: .3s;
 }
+.postal-code-btn:hover {
+    background-color: #9c5e31;
+    color: #fff;
+}
 /* デフォルトのチェックボックス非表示 */
 input[type='checkbox'] {
     opacity: 0;
@@ -496,7 +503,7 @@ input[type='checkbox']:checked +span::before {
 /* 必須 */
 .require {
     display: inline-block;
-    font-size: .7rem;
+    font-size: 1.4rem;
     background-color: #ff6666;
     color: #fff;
     padding: 3px;
@@ -525,7 +532,7 @@ input[type='checkbox']:checked +span::before {
 
 /* news.html ---------------------------------------*/
 .page-news .container {
-    width: 70%;
+    width: 50%;
 }
 .page-news-list li {
     margin-bottom: 2rem;
@@ -556,13 +563,10 @@ input[type='checkbox']:checked +span::before {
 .page-artical .container {
     width: 60%;
 }
-.page-artical .category-date__date {
-    font-size: 1.2rem;
-}
 .page-artical .category-date__text {
     display: block;
     margin: 0;
-    font-size: 2.2rem;
+    font-size: 3rem;
 }
 .artical-item {
     padding: 30px 0;
