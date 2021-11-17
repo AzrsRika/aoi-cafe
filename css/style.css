@@ -542,10 +542,16 @@ input[type='checkbox']:checked +span::before {
     justify-content: center;
     text-align: center;
 }
-.pagination li,.pagination a,.current {
-    width: 30px;
+.pagination li {
     margin: 0 6px;
+}
+.pagination li,.pagination a,.current {
+    width: 36px;
+    height: 36px;
     display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .pagination a:hover {
     background: #ccc;
